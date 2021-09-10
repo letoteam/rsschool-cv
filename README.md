@@ -1,1 +1,0 @@
-https://letoteam.github.io/rsschool-cv/cv
