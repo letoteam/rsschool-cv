@@ -18,6 +18,7 @@ ___
 
 ```
 String.prototype.isUpperCase = function() {
+    
   let testedWord = this.split("");
   let caseCounter = 0;
   let isItUpperCase = false;
