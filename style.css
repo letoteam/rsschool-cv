@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #3c3c3c;
+}
+.container{
+    width: 970px;
+    margin: 0 auto;
+}
+
+header{
+    background: url(img/img-bg-1.jpg) no-repeat;
+    background-size: cover;
+    height: 405px;
+    padding-top: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 80px;
+    align-items: center;
+    padding: 0 30px;
+    color: #303030;
+    /* border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; */
+    border-radius: 3px;
+}
+nav .logo-container{
+    font-size: 25px;
+    /* text-transform: uppercase; */
+    width: 100px;
+    font-weight: 600;
+}
+.navbar{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 100%;
+}
+.navbar li{
+    height: 100%;
+    transition: 0.1s ease;
+}
+.navbar li:hover{
+    border-bottom: 2px solid #593B4F;
+    letter-spacing: 1px;
+}
+.navbar a{
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    height: 100%;;
+    color: #000;
+    text-decoration: none;
+}
+.header-content{
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 50px 80px;
+    display: flex;
+    /* justify-content: space-between; */
+    position: relative;
+    margin-top: 30px;;
+}
+.content-container{
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 50px 80px;
+}
+.header-portrait{
+    margin-right: 80px;
+}
+.header-content .social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;;
+}
+.header-content .social-media a{
+    margin: 0 10px;
+    color: #808080;
+}
+.header-info h1{
+    font-size: 43px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.header-info .position{
+    color: #808080;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.header-data{
+    margin-bottom: 30px;
+}
+.header-data__row{
+    display: flex;
+    margin-bottom: 10px;
+}
+.header-data__row p:first-child{
+    width: 170px;
+}
+.header-data__row p:last-child{
+    color: #808080;
+}
+.header-button a{
+    display: block;
+    width: 170px;
+    height: 40px;
+    color: #fff;
+    background-color: #007bff;
+    /* text-transform: uppercase; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.2s ease;
+}
+.header-button a:hover{
+    background-color: #fff;
+    color: #007bff;
+    letter-spacing: 0.7px;
+    border: 2px solid #007bff;
+}
