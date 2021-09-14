@@ -79,11 +79,16 @@ nav .logo-container{
 .header-content .social-media{
     display: flex;
     justify-content: center;
-    margin-top: 15px;;
+    margin-top: 15px;
+    list-style: none;
 }
 .header-content .social-media a{
     margin: 0 10px;
     color: #808080;
+    transition: 0.2s ease;
+}
+.header-content .social-media a:hover{
+    color: #000;
 }
 .header-info h1{
     font-size: 43px;
@@ -129,4 +134,193 @@ nav .logo-container{
     color: #007bff;
     letter-spacing: 0.7px;
     border: 2px solid #007bff;
+}
+
+main{
+    background-color: #e5e5e5;
+    padding-top: 180px;
+}
+section{
+    margin-bottom: 40px;
+}
+section#EducationSection .content__title{
+    margin-bottom: 40px;
+}
+.content__title{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.education-blocks{
+}
+.content__blocks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content__block{
+    width: 250px;
+    /* border-top: 2px solid #e5e5e5; */
+}
+.content__block-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    height: 47px;
+}
+.content__block-separator{
+    width: 80px;
+    height: 3px;
+    margin-bottom: 10px;
+}
+.dark{
+    background-color: #594246;
+}
+.light{
+    background-color: #D9BF71;
+}
+.medium{
+    background-color: #D99379;
+}
+.blue{
+    background-color: #9FBFBF;
+}
+.blue-color{
+    color: #9FBFBF;
+}
+.orange{
+    background-color: #D99E6A;
+}
+.content__block-time{
+    color: #808080;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.content__block-place{
+    height: 50px;
+}
+section#SkillsSection{
+    margin-bottom: 
+}
+.img-blocks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img-block__item{
+    width: 110px;
+    background-color: #fff;
+    height: 100px;
+    /* margin-right: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+}
+.img-block__item p{
+    font-size: 50px;
+}
+.img-block__separator{
+    width: 40px;
+    height: 3px;
+    margin-bottom: 10px;
+}
+#CodeSection .content-container{
+    width: 500px;
+    margin-right: 40px;
+    /* margin: 0 auto; */
+}
+#CodeSection h2{
+    /* text-align: center; */
+}
+.sections-wrapper{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+#ContactSection{
+    width: 100%;
+    min-width: 250px;
+}
+
+.contact-btn{
+    display: block;
+    width: 170px;
+    height: 40px;
+    color: #fff;
+    background-color: #007bff;
+    /* text-transform: uppercase; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.2s ease;
+}
+.contact-btn:hover{
+    background-color: #fff;
+    color: #007bff;
+    letter-spacing: 0.7px;
+    border: 2px solid #007bff;
+}
+.contact-form label{
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-form input, .contact-form textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 5px 0;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    outline: none !important;
+}
+.contact-form input#name{
+    border-bottom: 2px solid #D99379;
+}
+.contact-form textarea{
+    border-bottom: 2px solid #9FBFBF;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+}
+.contact-form button{
+    border: none;
+    cursor: pointer;
+}
+footer{
+    background-color: #e5e5e5;
+}
+footer .content-container{
+    padding: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+footer .footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+footer .rs-logo{
+    width: 100px;
+}
+.social-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    list-style: none;
+}
+.social-footer a{
+    margin: 0 10px;
+    color: #808080;
+    transition: 0.2s ease;
+}
+.social-footer a:hover{
+    color: #000;
 }
