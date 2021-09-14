@@ -8,10 +8,14 @@ body{
     color: #3c3c3c;
 }
 .container{
-    width: 970px;
+    width: 1200px;
     margin: 0 auto;
 }
-
+@media screen and (max-width: 1440px) {
+    .container{
+        width: 970px;
+    }
+}
 header{
     background: url(img/img-bg-1.jpg) no-repeat;
     background-size: cover;
@@ -151,8 +155,6 @@ section#EducationSection .content__title{
     font-weight: 500;
     margin-bottom: 20px;
 }
-.education-blocks{
-}
 .content__blocks{
     display: flex;
     justify-content: space-between;
@@ -200,9 +202,6 @@ section#EducationSection .content__title{
 .content__block-place{
     height: 50px;
 }
-section#SkillsSection{
-    margin-bottom: 
-}
 .img-blocks{
     display: flex;
     justify-content: space-between;
@@ -231,9 +230,6 @@ section#SkillsSection{
     width: 500px;
     margin-right: 40px;
     /* margin: 0 auto; */
-}
-#CodeSection h2{
-    /* text-align: center; */
 }
 .sections-wrapper{
     display: flex;
@@ -324,3 +320,4 @@ footer .rs-logo{
 .social-footer a:hover{
     color: #000;
 }
+
