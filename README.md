@@ -1,1 +1,1 @@
-https://letoteam.github.io/rsschool-cv/cv
+https://letoteam.github.io/rsschool-cv/
